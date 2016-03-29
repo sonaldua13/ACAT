@@ -16,6 +16,16 @@ It is something similar to the Angular Quick Start but does the entire build wit
 - Basic Service Worker, which implements "Cache then network strategy".
 - Sass-enabled styling.
 
+#Requirements
+
+Install Node
+on OSX, install home brew and type brew install node
+on Windows, use the installer available at nodejs.org
+On OSX you can alleviate the need to run as sudo by following John Papa's instructions
+Open terminal
+Type npm install -g node-inspector bower gulp
+
+
 # How to start
 
 **Note** that this seed project requires node v4.x.x or higher and npm 2.14.7.
@@ -30,8 +40,8 @@ In order to start the seed use:
 
 
 ```bash
-git clone --depth 1 https://github.com/archfirst/angular2-seed-sass.git
-cd angular2-seed-sass
+git clone --depth 1 https://github.com/sonaldua13/ACAT
+cd ACAT
 # install the project's dependencies
 npm install
 # watches your files and uses livereload by default
@@ -50,6 +60,7 @@ _Does not rely on any global dependencies._
 # Table of Content
 
 - [Introduction](#introduction)
+- [Requirements](#requirements)
 - [How to start](#how-to-start)
 - [Table of Content](#table-of-content)
 - [Configuration](#configuration)
